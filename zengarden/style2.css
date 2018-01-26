@@ -1,0 +1,85 @@
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: Garamond, Arial, serif;
+  color: white;
+  width: 200px;
+  height: 50px;
+  padding: 50px;
+  justify-content: center;
+  background-color: #000000;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-family: Garamond, Arial, serif;
+  color: white;
+  padding-top: 50px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-color: #000000;
+}
+
+h3 {
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: Garamond, Arial, serif;
+  color: white;
+  height: 100px;
+  width: 250px;
+  background-color: #000000;
+}
+
+body {
+  font-size: 18px;
+  font-family: Georgia, Arial, serif;
+  margin: 30px;
+  background-size: cover;
+  background-color: #000000;
+  background-image: url("bubbles.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+p {
+  text-indent: 50px;
+  line-height: 50%
+  text-align: center;
+  color: white;
+  margin: 30px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-color: #000000;
+}
+
+footer {
+  color: white;
+  margin: 30px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-color: #000000;
+
+}
+
+aside {
+  text-indent: 50px;
+  line-height: 50%
+  text-align: center;
+  color: white;
+  margin: 30px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-color: #000000;
+}

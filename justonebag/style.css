@@ -1,0 +1,202 @@
+/* === CSS Typography == */
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
+font-family: 'Lobster';
+font-size: 36pt;
+text-transform: capitalize;
+}
+
+h2 {
+font-size: 60pt;
+}
+
+#tagline h2 {
+  color: #ffffff;
+  font-size: 60pt;
+}
+
+h4 {
+  font-family: 'Lobster';
+}
+
+
+/* === CSS Backgrounds == */
+
+header, footer {
+background-color: #777777;
+}
+
+#tagline {
+  background-image:url("images/tagline.jpg");
+  width: 100%;
+  background-size: cover;
+}
+
+#local {
+  color: #ffffff;
+  background-image: url("images/local.png");
+  width: 33.33%;
+  height: 337px;
+  background-size: cover;
+}
+
+#national {
+  background-image: url("images/national.jpg");
+  color: #ffffff;
+  width: 33.33%;
+  height: 337px;
+  background-size: cover;
+}
+
+#international {
+  background-image: url("images/international.jpg");
+  color: #ffffff;
+  width: 33.33%;
+  height: 337px;
+  background-size: cover;
+}
+
+/* === CSS Box-Model == */
+
+
+main {
+  padding-bottom: 20px;
+}
+
+#logo {
+  padding-top: 25px;
+}
+
+#header {
+height: 400px;
+}
+
+.destinations {
+height: 300px;
+line-height: 200px;
+text-align: center;
+}
+
+#form {
+margin: 25px;
+font-size: 14pt;
+height: 284px;
+width: 365px;
+color: black;
+padding: 5px;
+background-color: #cccccc;
+border-radius: 30px;
+}
+
+form {
+  height: 100%;
+  width: 75%;
+  margin: auto;
+}
+
+.submit {
+  font-size: 14pt;
+  border-radius: 30px;
+  border-color: #aef5e8;
+  background-color: #aef5e8;
+  height: 35px;
+  width: 146px;
+  padding: 1px;
+}
+
+.column {
+float: left;
+}
+.col-12 {
+width: 100%:
+}
+.col-9 {
+width: 75%;
+}
+.col-6{
+width: 50%;
+}
+.col-4 {
+width: 33.33%;
+}
+.col-3 {
+width: 25%;
+}
+.row:after {
+clear:both;
+content: " ";
+display: table;
+}
+
+/* == Helper Classes ==*/
+
+.float-left {
+ float: left;
+}
+.float-right {
+ float: right;
+}
+
+.align-right {
+text-align: right;
+}
+.align-center {
+text-align: center;
+}
+.align-left {
+text-align: left;
+}
+.padding-small {
+padding: 10px;
+}
+.padding-large {
+padding: 25px;
+}
+.img-circle {
+border-radius: 100px;
+}
+
+#social-media li {
+   display: inline;
+}
+
+#partnerships h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24pt;
+}
+
+#legal {
+  text-align: left;
+}
+
+nav {
+  margin-top: 100px;
+}
+
+nav a:hover {
+   color: #8C5A6E;
+}
+
+footer a:hover {
+  color: #8C5A6E;
+}
+
+ul {
+  list-style-type: none;
+}
+.submit:hover {
+   background-color: #8C5A6E;
+}

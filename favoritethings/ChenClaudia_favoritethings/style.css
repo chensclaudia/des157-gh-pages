@@ -1,0 +1,55 @@
+#dogs {
+  width: 600px;
+  float: left;
+  clear: both;
+  padding: 25px;
+}
+
+#wolf {
+  width: 600px;
+  float: right;
+  clear: right;
+  padding: 25px;
+}
+
+#dingo {
+  width: 600px;
+  float: left;
+  clear: both;
+  padding: 25px;
+}
+
+#coyotes {
+  width: 600px;
+  float: right;
+  clear: right;
+  padding: 25px;
+}
+
+#hyenas {
+  width: 600px;
+  float: left;
+  clear: both;
+  padding: 25px;
+}
+
+#fox {
+  width: 600px;
+  float: right;
+  clear: right;
+  padding: 25px;
+}
+
+#jackals {
+  width: 600px;
+  float: left;
+  clear: both;
+  padding: 25px;
+}
+
+#culpeos {
+  width: 600px;
+  float: right;
+  clear: right;
+  padding: 25px;
+}
