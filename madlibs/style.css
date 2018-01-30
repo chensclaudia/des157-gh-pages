@@ -1,0 +1,34 @@
+
+
+h1 {
+  font-family: 'Monoton', Arial, sans-serif;
+  font-size: 72px;
+  color: #ffdb4d;
+
+}
+
+h2 {
+  font-family: 'Dancing Script', Helvetica, serif;
+  font-size: 60px;
+
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #e5db9a;
+  background: url("coverr.jpeg");
+  margin-left: auto;
+  padding-left: 250px;
+  padding-top: 20px;
+
+}
+
+li {
+  padding-top: 10px;
+  color: #cca300;
+
+}
+
+figure {
+  float: right;
+}
