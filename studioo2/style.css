@@ -4,14 +4,12 @@
     font-family: 'Leckerli One', Arial, sans-serif;
     font-size: 60px;
     color: #d27979;
-    background-color: rgba(0,0,0,0.9);
-    text-align: center;
   }
 
   body {
     font-family: Helvetica;
     font-size: 12px;
-    background-image: url("bubbles.png");
+    background-image: url("baackground.png");
     background-repeat: repeat;
 
   }
