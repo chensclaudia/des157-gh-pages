@@ -1,5 +1,7 @@
 
 
+
+
   h1 {
     font-family: 'Leckerli One', Arial, sans-serif;
     font-size: 60px;
@@ -17,6 +19,11 @@
 
   img {
     margin-left: 1%;
+
+  }
+
+  figure {
+    float: left;
   }
 
   figcaption {
@@ -149,8 +156,6 @@
   		display: none;
   	}
 
-
-
   @media only screen and (max-width: 1020px) {    /*Deskptop*/
 
   	.column:first-of-type {
@@ -177,8 +182,3 @@
   	.small {
   		display: block;
   	}
-
-  	.big {
-  		display: none;
-  	}
-  }
