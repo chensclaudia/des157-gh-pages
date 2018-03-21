@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>UCD FoodMap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+			<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li><a href="index.html">About Us</a></li>
+					<li><a href="map.html">Map</a></li>
+					<li><a href="resources.html">Resources</a></li>
+					<li class="fh5co-active"><a href="yourposts.html">Your Posts</a></li>
+				</ul>
+			</nav>
+
+			<div class="fh5co-footer">
+				<ul>
+					<li><a href="https://validator.w3.org/check?uri=referer"><img src="images/html.png" alt="html"></a></li>
+					<li><a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/css.png" alt="css"></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="fh5co-main">
+
+			<div class="fh5co-narrow-content">
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Manage Your Posts</h2>
+				<div class="row animate-box" data-animate-effect="fadeInLeft">
+					<h2>Post Your Food!</h2>
+			    <p id="words">Please only post if you feel you can accomodate a large amount of people. Post at least a week in advance. If your post is approved, it will appear on the map!</p>
+
+			    <form>
+			    <ul>
+
+
+			       <div class="container">
+			          <form action="/action_page.php">
+			            <div class="row">
+			              <div class="col-25">
+			                <label for="fname">Name of Place</label>
+			              </div>
+			              <div class="col-75">
+			                <input type="text" id="place" name="place" placeholder="Location?">
+			              </div>
+			            </div>
+			            <div class="row">
+			              <div class="col-25">
+			                <label for="lname">Food</label>
+			              </div>
+			              <div class="col-75">
+			                <input type="text" id="lname" name="lastname" placeholder="Name of food?">
+			              </div>
+			            </div>
+			            <div class="row">
+			              <div class="col-25">
+			                <label for="country">Type</label>
+			              </div>
+			              <div class="col-75">
+			                <select id="country" name="country">
+			                  <option value="australia">Vegan</option>
+			                  <option value="canada">Vegetarian</option>
+			                  <option value="usa">Regular</option>
+			                </select>
+			              </div>
+			            </div>
+			            <div class="row">
+			              <div class="col-25">
+			                <label for="subject">Comments</label>
+			              </div>
+			              <div class="col-75">
+			                <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+			              </div>
+			            </div>
+			            <div class="row">
+
+
+
+			            </div>
+			          </form>
+			        </div>
+
+
+
+			    </ul>
+			  </form>
+
+
+			    <button id="button">Submit!</button>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div id="story"></div>
+	<script src="server.js"></script>
+<script src='script.js' type="text/javascript"></script>
+
+
+</body>
+
+</html>
